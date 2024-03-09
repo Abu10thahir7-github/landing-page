@@ -34,6 +34,7 @@ header .logo{
 header ul{
     position: relative;
     display: flex;
+    justify-content: flex-end
 }
 header ul li{
     list-style: none;
@@ -154,3 +155,15 @@ text-decoration: none;
     clip-path: circle(600px at right 800px);
 
 }
+@media only screen and (max-width: 600px) {
+    header {
+    padding:10px;
+
+    }
+    header ul{
+        display: none;
+    }
+    .textBox p{
+        display: none;
+    }
+  }
